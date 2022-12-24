@@ -1,0 +1,587 @@
+ body {
+     margin: 0;
+     background: #fff;
+ }
+
+ /*Menu Responsive*/
+ @media only screen and (max-width: 767px) {
+     #menu .brand {
+         width: 100%;
+         text-align: center;
+     }
+
+     #menu .menu {
+         width: 100%;
+         text-align: center;
+     }
+ }
+
+ #header {
+     /*     position: fixed;*/
+     top: 0;
+     width: 100%;
+     background-color: #fff;
+ }
+
+ #menu {
+     /*            border: 1px solid;*/
+     color: #153D32;
+     padding: 0 5%;
+ }
+
+ #menu .brand {
+     float: left;
+     padding: 12px 10px
+ }
+
+ .brand a {
+     font-size: 25px;
+     text-decoration: none;
+     color: #153D32;
+     font-weight: 100;
+     font-style: italic;
+     letter-spacing: 1px;
+ }
+
+ #menu .menu {
+     float: right;
+ }
+
+ #menu .menu ul li {
+     display: inline-block;
+     margin: 0 10px;
+ }
+
+ #menu .menu ul li a {
+     text-decoration: none;
+     color: #153D32;
+     font-size: 17px;
+ }
+
+ .cash {
+     color: darkorange;
+ }
+
+ .clear {
+     clear: both;
+ }
+
+ /*Main Styling*/
+ #main {
+     overflow: hidden;
+ }
+
+ .hero-section-container {
+     width: 100%;
+     background-color: #0A6944;
+
+ }
+
+ .hero-section {
+     width: 1000px;
+     padding: 50px 50px;
+     margin: 0 auto 50px;
+     background-color: #0A6944;
+ }
+
+ .left-main-section {
+     width: 45%;
+     /*    border: 1px solid black;*/
+     float: left;
+     color: #fff;
+ }
+
+ .left-main-section h1 {
+     margin-top: 0;
+     font-weight: normal;
+     padding: 10px 20px;
+     margin-bottom: 5px;
+ }
+
+ .left-main-section p {
+     font-size: 16px;
+     line-height: 1.5;
+     margin-top: 0;
+     margin-bottom: 10px;
+     padding: 2px 20px;
+ }
+
+ .left-main-section .register {
+     display: block;
+     width: 100px;
+     padding: 10px 15px;
+     border: none;
+     margin-left: 20px;
+     border-radius: 5px;
+     font-weight: bold;
+     cursor: pointer;
+
+ }
+
+ .right-main-section {
+     width: 45%;
+     float: right;
+     display: block;
+     padding-right: 20px;
+ }
+
+ .right-main-section img {
+     width: 400px;
+     margin: 0 auto;
+     display: block;
+
+ }
+
+ .clear {
+     clear: both;
+ }
+
+
+ /*Courses Section Styling*/
+ .offered-courses-section {
+     width: 1100px;
+     margin: 0 auto 100px;
+ }
+
+ .offered-courses-section h2 {
+     margin-top: 0;
+     color: #0A6944;
+     text-align: center;
+     font-size: 2rem;
+     text-align: center;
+ }
+.offered-courses-section h3{
+    text-align: center;
+    color: #0A6944;
+    margin-top: 0;
+}
+.offered-courses-section .courses p{
+    margin-top: 0;
+    text-align: center;
+}
+.offered-courses-section .courses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.offered-courses-section .course-name{
+    width:300px;
+    border: 1px solid;
+    margin:  0 auto 50px;
+    border-radius: 10px;
+    border-color: #0A6944;
+}
+.offered-courses-section .course-name img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+ /*Showcase styling*/
+
+ .showcase-data {
+     width: 100%;
+     margin: 0 auto 50px;
+     height: 400px;
+     background: url(images/section-img.jpg);
+     background-size: cover;
+     text-align: center;
+     color: #fff;
+     opacity: 0.9;
+ }
+
+ .showcase-data h3 {
+     margin-top: 0;
+     padding: 50px 50px 0;
+     font-size: 3rem;
+ }
+
+ .showcase-data p {
+     font-size: 25px;
+     padding: 0px 50px;
+     margin-top: 0;
+ }
+
+ /*Guide Styling*/
+ .guide {
+     width: 900px;
+     margin: 0 auto 0;
+     height: 400px;
+ }
+
+ .guide h3 {
+     margin: 0 auto;
+     padding: 0 0 30px;
+     font-size: 2rem;
+     text-align: center;
+     color: #0A6944;
+ }
+
+ .guide table {
+     margin: 0 auto;
+ }
+
+ .guide table th {
+     background-color: #0A6944;
+     color: #fff;
+     padding: 20px 0;
+ }
+
+ /*Youtube embed video styling*/
+ .yt-video {
+     width: 1000px;
+     margin: 0 auto 50px;
+ }
+
+ .yt-video iframe {
+     border-radius: 10px;
+ }
+
+ .yt-video h3 {
+     margin: 0 auto;
+     padding: 0 0 30px;
+     font-size: 2rem;
+     text-align: center;
+     color: #0A6944;
+ }
+
+
+ /*About page Styling*/
+ #header {
+     margin: 0 0 50px;
+     border-bottom: 5px solid #0A6944;
+     border-radius: 10px;
+ }
+.about-container {
+     width: 100%;
+     background-color: #0A6944;
+ }
+ .vision {
+     width: 1000px;
+     margin: 0 auto 50px;
+     background-color: #0A6944;
+     padding: 50px 50px;
+     overflow: hidden;
+     opacity: 0.9;
+ }
+
+ .left-vision {
+     width: 40%;
+     margin: 0 auto;
+     /*    border: 1px solid black;*/
+     float: left;
+ }
+
+ .left-vision p {
+     font-size: 18px;
+     line-height: 1.5;
+     margin-top: 0;
+     color: #fff;
+     text-align: justify
+ }
+
+ .right-vision {
+     width: 50%;
+     margin: 0 auto;
+     float: right;
+ }
+
+
+
+ .about-img {
+     width: 400px;
+     margin: 0 auto 50px;
+     display: block;
+     border-radius: 10px;
+ }
+
+ .vision h3 {
+     margin: 0 auto;
+     padding: 0 0 30px;
+     font-size: 2rem;
+     text-align: center;
+     color: #fff;
+ }
+
+ /*Team Sectin Styling*/
+ .team {
+     width: 1000px;
+     margin: 0 auto 100px;
+     text-align: center;
+ }
+.team-members{
+    width: 100%;
+    margin: 0 auto;
+}
+ .member {
+     width: 12.5rem;
+     margin: 0 50px;
+     float: left;
+ }
+
+ .team h3 {
+     margin: 0 auto;
+     padding: 0 0 30px;
+     font-size: 2rem;
+     text-align: center;
+     color: #0A6944;
+ }
+
+ /*Text/video area Sytling*/
+ .textvideo {
+     width: 1000px;
+     margin: 0 auto 100px;
+ }
+
+ .text-area {
+     width: 400px;
+     float: left;
+     margin: 0 auto;
+     padding: 20px;
+     background-color: #0A6944;
+     border-radius: 10px;
+ }
+
+ .text-area h3 {
+     color: #fff;
+     margin-top: 0;
+     font-size: 25px;
+ }
+
+ .text-area p {
+     margin-top: 0;
+     font-size: 17px;
+     line-height: 1.5;
+     color: #fff;
+ }
+
+ .video-area {
+     width: 400px;
+     float: right;
+     padding: 20px;
+ }
+
+ .video-area video {
+     width: 400px;
+     margin: 0 auto;
+     height: 250px;
+ }
+
+ /*Contact page Styling*/
+
+ .form-section {
+     width: 1000px;
+     margin: 0 auto 50px;
+ }
+
+ .left-section {
+     width: 400px;
+     float: left;
+     padding: 50px 20px;
+     background-color: #0A6944;
+     border-radius: 10px;
+     color: #fff;
+ }
+
+ .left-section .address p {
+     font-style: italic;
+     font-size: 20px;
+     margin-top: 0;
+     padding: 5px 0;
+ }
+
+ .left-section .social-links {
+     font-size: 50px;
+     margin: 0 auto;
+     color: #fff;
+ }
+
+ .right-section {
+     width: 400px;
+     float: right;
+     margin: 0 auto;
+     padding: 20px;
+ }
+
+ /*Form Styling*/
+ .right-section input {
+     width: 100%;
+     padding: 5px;
+     font-size: 20px;
+     margin-bottom: 15px;
+     border-radius: 5px;
+ }
+
+ .right-section #message {
+     resize: none;
+     width: 404px;
+     margin-bottom: 15px;
+     border-radius: 5px;
+ }
+
+ .required {
+     color: red;
+ }
+
+ .right-section .submit {
+     width: 100px;
+     font-size: 15px;
+     background: #0A6944;
+     color: #fff;
+     border: none;
+     padding: 10px 20px;
+     margin-left: 310px;
+ }
+
+ .right-section label {
+     font-size: 20px;
+     padding-bottom: 15px;
+ }
+
+ /*Map Styling*/
+
+ .map iframe {
+     width: 1300px;
+     overflow: hidden;
+     margin: 0 auto;
+     display: block;
+     height: 450px;
+
+ }
+
+ .rowspan {
+     width: 900px;
+     margin: 0 auto 50px;
+
+ }
+
+ .rowspan h3 {
+     margin: 0 auto;
+     padding: 0 0 30px;
+     font-size: 2rem;
+     text-align: center;
+     color: #0A6944;
+ }
+
+ /*Colspan*/
+ .colspan {
+     width: 900px;
+     margin: 0 auto 50px;
+ }
+
+ .colspan h3 {
+     margin: 0 auto;
+     padding: 0 0 30px;
+     font-size: 2rem;
+     text-align: center;
+     color: #0A6944;
+ }
+
+ /*        Footer Styling*/
+ #footer {
+     background-color: #217757;
+     text-align: center;
+     padding: 30px 0px 5px;
+     color: #fff;
+ }
+
+ #footer .social {
+     font-size: 50px;
+     margin: 0 10px;
+     color: #fff;
+ }
+
+ #footer p {
+     padding-top: 30px;
+ }
+
+ #footer p a {
+     text-decoration: none;
+     color: #fff;
+
+ }
+
+
+
+ /*For Responsive Use Media Queries*/
+ /*        For Responsive Media Queries using internal Styles*/
+ @media only screen and (max-width: 567px) {
+
+     /*            index.html Responsive styling*/
+     body{
+         text-align: center;
+     }
+     .hero-section .register{
+         width: 50%;
+         margin: 0 auto;
+     }
+     .hero-section {
+         box-sizing: border-box;
+         overflow: hidden;
+     }
+
+     .left-main-section {
+         width: 45%;
+        margin: 0 auto 50px;
+         
+     }
+
+     .right-main-section {
+         width: 100%;
+         margin-right: 210px;
+
+     }
+
+     .showcase-data h3 {
+         font-size: 18px;
+     }
+
+     .showcase-data p {
+         font-size: 20px;
+     }
+
+     .offered-courses-section {
+         width: 100%;
+         margin: 0 auto;
+     }
+     
+     .yt-video {
+         width: 90%;
+         margin: 0 auto;
+     }
+
+     .yt-video .audio {
+         margin-bottom: 50px;
+     }
+
+
+/*             About Page Responsive*/
+.left-vision{
+    width: 40%;
+    margin: 0 auto;
+}
+.right-vision{
+    width: 100%;
+    margin: 0 300px 100px 0;
+}
+     .team{
+         width: 100%;
+         margin: 0 auto;
+     }
+     .team-member{
+         width: 50%;
+         margin: 0 auto;
+         overflow: hidden;
+     }
+     .text-area{
+         width: 40%;
+         margin-left: 30px
+     }
+     .video-area{
+         width: 100%;
+         margin-right: 230px;
+     }
+
+}
